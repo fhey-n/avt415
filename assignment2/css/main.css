@@ -9,12 +9,13 @@ body {
 }
 h1 {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 60px;
+  font-size: 35px;
 }
 h2 {
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 25px;
+  font-size: 20px;
 }
 p {
   padding-left: 50px;
@@ -25,6 +26,8 @@ a {
   color: #39213F;
   text-decoration: none;
   font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 a:hover{
   color: #8C778A;
@@ -42,37 +45,28 @@ hr.new1 {
   margin-top: -20px;
   margin-bottom: 30px;
 }
-.in ul {
-  list-style-type: none;
-  text-align: left;
-  padding-left: 0;
-}
-.in li {
-  padding-left: 0;
-  float: left;
-}
 .body {
   background-color: white;
   width: 1100px;
-  height: 1200px;
+  height: 920px;
   position: relative;
   margin: -50px auto 75px auto;
 }
-.nav ul {
+.in ul {
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.nav li {
+.in li {
   line-height: 20px;
   height: 30px;
 }
 @media screen and (min-width: 600px) {
-  .nav li {
+  .in li {
     width: 300px;
     border-bottom: none;
   }
-  .nav li {
+  .in li {
     display: inline-block;
-  }
+}
