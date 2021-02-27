@@ -20,12 +20,13 @@ h2 {
 p {
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 a {
   color: #39213F;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -52,21 +53,21 @@ hr.new1 {
   position: relative;
   margin: -50px auto 75px auto;
 }
-.in ul {
+.nav ul {
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.in li {
+.nav li {
   line-height: 20px;
   height: 30px;
 }
-@media screen and (min-width: 600px) {
-  .in li {
-    width: 300px;
+@media screen and (min-width: 400px) {
+.nav li {
+    width: 400px;
     border-bottom: none;
-  }
-  .in li {
+}
+.nav li {
     display: inline-block;
 }
